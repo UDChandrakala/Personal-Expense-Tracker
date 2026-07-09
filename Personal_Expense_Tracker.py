@@ -12,11 +12,8 @@ def add_expense():
         user_expenses[category]+=amount
     else:
         user_expenses[category]=amount
-            #amt=amt+expenses[category][amount]
-            #d[category]=amount
-        #return d
+           
 def show_expense():
-        #for category in expenses:
     for category,amount  in user_expenses.items():
         print(category,":",amount)
 
